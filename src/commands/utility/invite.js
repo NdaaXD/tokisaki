@@ -4,7 +4,7 @@ exports.run = async (client, message, args, color, prefix) => {
   
   let embed = new RichEmbed() 
   .setColor(color)
-  .setDescription('**[Click Here](https://discordapp.com/oauth2/authorize?client_id=500547370245685249&scope=bot&permissions=1517419646)** To Invite Me to your server!')
+  .setDescription('**[Click Here](https://discord.com/api/oauth2/authorize?client_id=963080522010075167&permissions=8&scope=bot)** To Invite Me to your server!')
   message.channel.send(embed);
 
 }
